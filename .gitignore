@@ -1,0 +1,22 @@
+# Video VSL — tai ve local bang download_vsl_hf.py (khong day len Git)
+**/*.mp4
+Videos/
+vsl-signconnect/Videos/
+.cache/
+**/.cache/
+
+# Model / vector demo (tai local)
+hand_landmarker.task
+vectors_demo/
+
+# Python
+__pycache__/
+.venv/
+venv/
+*.pyc
+
+# Android build (neu clone du an app)
+.gradle/
+build/
+local.properties
+.idea/
