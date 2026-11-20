@@ -1,0 +1,28 @@
+DANH SACH FILE TRONG THU MUC LVTN (E:\LVTN-temp-clone)
+====================================================
+
+[ GOC ]
+  README.md              - Mo ta du an
+  .gitignore             - Khong day video .mp4 len Git
+  UP_LEN_GITHUB.bat        - Bam de push (sau khi sua token)
+  DANH_SACH_FILE.txt       - File nay
+
+[ TAI LIEU ]
+  docs\NGUON_DU_LIEU.md        - Nguon database / video
+  docs\HUONG_DAN_UP_LEN_GIT.md - Cach up len GitHub (sua loi 403)
+
+[ VIDEO VSL - chi label tren Git, video tai local ]
+  vsl\Text\label.csv           - 4362 dong: ten file mp4 + nhan tieng Viet
+  vsl\download_vsl_hf.py       - Tai video tu Hugging Face
+  vsl\demo_video_to_vector.py  - Demo xu ly video
+  vsl\requirements.txt
+
+[ CSDL MAU LTDD ]
+  database\thuvien_db.sql
+  database\dienthoai_db.sql
+  database\sach_get.php
+  database\sach_post.php
+  database\dienthoai_get.php
+  database\dienthoai_post.php
+
+Video .mp4: chay "python vsl\download_vsl_hf.py" -> thu muc vsl\vsl-signconnect\Videos\
